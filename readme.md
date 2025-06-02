@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Data](https://img.shields.io/badge/Data-SG--NEx-orange.svg)](https://registry.opendata.aws/sgnex/)
 
-## 🔬 Project Overview
+## Project Overview
 
 This project presents the **first comprehensive cross-cancer analysis of N6-methyladenosine (m6A) RNA modifications** using Oxford Nanopore direct RNA sequencing data. By analyzing four distinct cancer cell lines from the Singapore Nanopore Expression (SG-NEx) dataset, we identified tissue-specific epitranscriptomic signatures that reveal fundamental differences in cancer biology.
 
@@ -15,7 +15,7 @@ This project presents the **first comprehensive cross-cancer analysis of N6-meth
 - **Tissue-specific m6A signatures** identified across lung, liver, breast, and blood cancers
 - **Novel biomarker potential** for cancer classification and therapeutic targeting
 
-## 🎯 Scientific Impact
+## Scientific Impact
 
 This work advances cancer epitranscriptomics by:
 
@@ -24,7 +24,7 @@ This work advances cancer epitranscriptomics by:
 3. **Clinical Relevance**: Potential biomarkers for precision oncology
 4. **Methodological Contribution**: Reproducible computational pipeline for epitranscriptomic analysis
 
-## 📊 Key Results
+## Key Results
 
 ### Cross-Cancer m6A Activity Rankings
 
@@ -42,7 +42,7 @@ This work advances cancer epitranscriptomics by:
 - **Consistent detection thresholds** (~0.008 probability) validate methodology
 - **Clear tissue-specific signatures** suggest distinct regulatory mechanisms
 
-## 🛠️ Methodology
+## Methodology
 
 ### Dataset: Singapore Nanopore Expression (SG-NEx)
 
@@ -69,7 +69,7 @@ graph LR
 - **SLURM**: High-performance computing
 - **AWS S3**: Data acquisition and storage
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── README.md                          # This file
@@ -90,7 +90,7 @@ graph LR
     └── explore_m6a_data.py            # Data structure analysis
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -140,7 +140,7 @@ python create_summary.py
 
 *Z-score normalized heatmap revealing tissue-specific m6A patterns.*
 
-## 🧬 Biological Significance
+## Biological Significance
 
 ### Cancer Biology Insights
 
@@ -155,7 +155,7 @@ python create_summary.py
 - **Precision Medicine**: Targeted therapy based on m6A activity levels
 - **Drug Development**: m6A machinery as therapeutic targets
 
-## 🔬 Technical Details
+## Technical Details
 
 ### Data Processing
 
@@ -178,7 +178,7 @@ python create_summary.py
 - **Reproducibility**: 100% reproducible with provided scripts
 - **Scalability**: Pipeline easily extensible to additional cancer types
 
-## 📚 Scientific Context
+## Scientific Context
 
 ### Related Work
 
@@ -195,7 +195,7 @@ This analysis builds upon:
 3. **Reproducible computational framework**
 4. **Clinical translation pathway identified**
 
-## 🔮 Future Directions
+## Future Directions
 
 ### Immediate Extensions
 
@@ -209,7 +209,7 @@ This analysis builds upon:
 - **Drug Discovery**: m6A machinery inhibitors
 - **Personalized Medicine**: Individual epitranscriptomic profiles
 
-## 💡 Impact & Applications
+## Impact & Applications
 
 ### Research Community
 
@@ -223,7 +223,7 @@ This analysis builds upon:
 - **Therapeutic Targeting**: Precision oncology approaches
 - **Biomarker Discovery**: Epitranscriptomic signatures
 
-## 🤝 Contributing
+## Contribution
 
 This project welcomes contributions! Areas for enhancement:
 
@@ -232,7 +232,7 @@ This project welcomes contributions! Areas for enhancement:
 - Statistical methodology refinements
 - Clinical validation studies
 
-## 📄 Citation
+##  Citation
 
 If you use this work, please cite:
 
@@ -241,32 +241,12 @@ If you use this work, please cite:
   title={Cross-Cancer m6A Landscape Analysis Using Nanopore Direct RNA Sequencing},
   author={[Your Name]},
   year={2025},
-  url={https://github.com/[username]/cross-cancer-m6a-analysis},
+  url={https://github.com/djcode81/cross-cancer-m6a-analysis},
   note={Computational analysis of epitranscriptomic modifications across cancer types}
 }
 ```
 
-## 🙏 Acknowledgments
 
-- **Singapore Nanopore Expression (SG-NEx) Consortium** for providing the dataset
-- **Goke Lab** for developing m6Anet
-- **University of Pittsburgh** for computational resources
-- **Dr. Leonora Balaj (MGH)** for research inspiration and epitranscriptomics expertise
-
-## 📞 Contact
-
-**Project Lead**: [Your Name]  
-**Institution**: University of Pittsburgh  
-**Email**: [your.email@pitt.edu]  
-**LinkedIn**: [Your LinkedIn Profile]
-
-## 📊 Project Statistics
-
-- **Lines of Code**: ~500 Python
-- **Data Processed**: 16GB nanopore RNA-seq
-- **Analysis Time**: 6 weeks development
-- **Figures Generated**: 2 publication-ready plots
-- **Scientific Impact**: Novel cancer biology insights
 
 ---
 
